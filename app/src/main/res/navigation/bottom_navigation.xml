@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/jobs">
+
+    <fragment
+        android:id="@+id/jobs"
+        android:name="com.example.linkedin.UI.Fragments.Jobs"
+        android:label="fragment_jobs"
+        tools:layout="@layout/fragment_jobs" />
+    <fragment
+        android:id="@+id/proposals"
+        android:name="com.example.linkedin.UI.Fragments.Proposals"
+        android:label="fragment_proposals"
+        tools:layout="@layout/fragment_proposals" />
+    <fragment
+        android:id="@+id/contracts"
+        android:name="com.example.linkedin.UI.Fragments.Contracts"
+        android:label="fragment_contracts"
+        tools:layout="@layout/fragment_contracts" />
+    <fragment
+        android:id="@+id/messages"
+        android:name="com.example.linkedin.UI.Fragments.Messages"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/alert"
+        android:name="com.example.linkedin.UI.Fragments.Alert"
+        android:label="fragment_alert"
+        tools:layout="@layout/fragment_alert" />
+</navigation>

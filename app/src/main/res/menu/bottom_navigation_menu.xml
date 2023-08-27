@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/jobs"
+        android:icon="@drawable/pic_jobs"
+        android:title="Jobs"/>
+
+    <item
+        android:id="@+id/proposals"
+        android:icon="@drawable/pic_proposals"
+        android:title="Proposals"/>
+
+    <item
+        android:id="@+id/contracts"
+        android:icon="@drawable/pic_contracts"
+        android:title="Contracts"/>
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/pic_messages"
+        android:title="Messages"/>
+
+    <item
+        android:id="@+id/alert"
+        android:icon="@drawable/pic_alerts"
+        android:title="Alerts"/>
+
+</menu>
