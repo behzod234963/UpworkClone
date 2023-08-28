@@ -2,6 +2,7 @@ package com.example.linkedin.UI.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.linkedin.R
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         val navController=navHost.navController
         val bnvBNV:BottomNavigationView=findViewById(R.id.bnvBottomNavigation)
         bnvBNV.setupWithNavController(navController)
+        val tvTitle:TextView=findViewById(R.id.title_main)
 
     }
 }
