@@ -31,7 +31,7 @@ class JobsAdapter(val ctx:Context, val verList: ArrayList<JobsVerModel>):Recycle
 
     class JobsHozViewHolder(view: View):RecyclerView.ViewHolder(view) {
 
-        val rvJobsHoz:RecyclerView?=view.findViewById(R.id.rvJobs_Hoz)
+        val rvJobsHoz: RecyclerView? =view.findViewById(R.id.rvJobs_Hoz)
 
     }
 

@@ -38,17 +38,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1.5"
                 android:gravity="center">
+
                 <ImageButton
                     android:layout_width="55dp"
                     android:layout_height="55dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    android:src="@drawable/pic_dislike_item_ver"
-                    android:scaleType="centerCrop"
                     android:background="@drawable/bg_like_button_main"
-                    app:backgroundTint="@null"/>
+                    android:padding="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pic_dislike_item_ver"
+                    app:backgroundTint="@null" />
+
                 <ImageButton
                     android:layout_width="55dp"
                     android:layout_height="55dp"

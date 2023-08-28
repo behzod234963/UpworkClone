@@ -30,11 +30,11 @@ class Proposals : Fragment() {
 
        loadlist()
 
-        val vpViewPager: ViewPager? = view.findViewById(R.id.vpViewPager)
-        val tlTab: TabLayout? = view.findViewById(R.id.tlTab)
-        tlTab?.setupWithViewPager(vpViewPager)
+        val vpViewPager: ViewPager = view.findViewById(R.id.vpViewPager)
+        val tlTab: TabLayout = view.findViewById(R.id.tlTab)
+        tlTab.setupWithViewPager(vpViewPager)
         vpAdapter= fragmentManager?.let { ViewPagerAdapter(vplist,titlelist, it) }!!
-        vpViewPager?.adapter=vpAdapter
+        vpViewPager.adapter=vpAdapter
 
     }
 
